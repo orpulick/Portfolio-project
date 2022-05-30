@@ -26,6 +26,14 @@ p {
 h6 {
   color: var(--secondary-color);
 }
+.about-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-h1 {
+  font-size: 60px;
+}
 .hero {
   background: var(--branding-color);
   text-align: center;
