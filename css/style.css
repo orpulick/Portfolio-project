@@ -119,6 +119,13 @@ nav a:hover {
 .footer {
   padding-bottom: 40px;
 }
+.social-links {
+  text-decoration: none;
+}
+a:hover .footer-icons {
+  color: #ffd6a4;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 44px;
