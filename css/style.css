@@ -1,10 +1,13 @@
 :root {
-  --branding-color: #fde9df;
-  --secondary-color: #0881a3;
+  --branding-color: #e1f4f3;
+  --secondary-color: #95818d;
+  --third-color: #706c61;
   --heading-font: "Ubuntu", sans-serif;
   --default-font: "Nanum Gothic", sans-serif;
+  --font-color: #333333;
 }
 body {
+  color: var(--font-color);
   font-family: var(--default-font);
 }
 h1,
@@ -123,13 +126,12 @@ nav a:hover {
   text-decoration: none;
 }
 a:hover .footer-icons {
-  color: #ffd6a4;
+  color: var(--third-color);
 }
 
 @media (max-width: 768px) {
   h1 {
     font-size: 44px;
-    line-height: 2;
   }
   h2 {
     font-size: 44px;
@@ -149,10 +151,13 @@ a:hover .footer-icons {
     align-items: center;
     justify-content: center;
   }
+  .p-padding {
+    padding: 0 20px;
+  }
   nav {
     justify-content: center;
   }
   nav a {
-    font-size: 14px;
+    font-size: 20px;
   }
 }
